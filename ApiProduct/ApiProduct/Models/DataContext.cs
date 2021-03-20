@@ -12,5 +12,7 @@ namespace ApiProduct.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ApiProduct.Models.Product> Products { get; set; }
     }
 }
